@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182349559006",
+    "firebase_url": "https://checkitout-8b45e.firebaseio.com",
+    "project_id": "checkitout-8b45e",
+    "storage_bucket": "checkitout-8b45e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182349559006:android:847fd1d7f4947856ef7e4f",
+        "android_client_info": {
+          "package_name": "ru.rublt.checkitout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182349559006-msk6e2ltdomhv3snnbs2dd8g5ljeu4fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.rublt.checkitout",
+            "certificate_hash": "10cab997b53745ab6e712f592af93c0e3fe882cf"
+          }
+        },
+        {
+          "client_id": "182349559006-mfac1jorl107ulal8qiblf2mo8ou8urh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwgIJsWrZckE2iN1UZBQQ-V6SJe8NVVs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182349559006-mfac1jorl107ulal8qiblf2mo8ou8urh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
