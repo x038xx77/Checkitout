@@ -21,7 +21,7 @@
         <ImageView
             android:id="@+id/icon"
             android:layout_width="match_parent"
-            android:layout_height="390dp"
+            android:layout_height="200dp"
             android:background="@drawable/icon_checkinapp"
             android:padding="10dp"
             android:contentDescription="@string/app_name" />
@@ -32,17 +32,20 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/title_bottom_margin"
             android:text="@string/activiti_title_text"
+            android:textSize="20sp"
             android:theme="@style/ThemeOverlay.MyTitleText" />
 
         <TextView
             android:id="@+id/status"
             style="@style/ThemeOverlay.MyTextDetail"
-            android:text="@string/signed_out" />
+            android:text="@string/signed_out"
+            android:textSize="10sp"/>
 
         <TextView
             android:id="@+id/detail"
             style="@style/ThemeOverlay.MyTextDetail"
-            android:text="@string/check_view" />
+            android:text="@string/check_view"
+            android:textSize="10sp"/>
 
     </LinearLayout>
 
@@ -59,14 +62,14 @@
 
             <com.google.android.gms.common.SignInButton
                 android:id="@+id/btn_in_Google"
-                android:layout_width="120dp"
+                android:layout_width="130dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:visibility="visible" />
 
             <Button
                 android:id="@+id/emailSignInButton"
-                android:layout_width="120dp"
+                android:layout_width="130dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="@dimen/button_horizontal_margin"

@@ -21,7 +21,7 @@
         <ImageView
             android:id="@+id/icon"
             android:layout_width="match_parent"
-            android:layout_height="390dp"
+            android:layout_height="300dp"
             android:background="@drawable/icon_checkinapp"
             android:padding="10dp"
             android:contentDescription="@string/app_name" />
@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/title_bottom_margin"
             android:text="@string/activiti_title_text"
+            android:textSize="30dp"
             android:theme="@style/ThemeOverlay.MyTitleText" />
 
         <TextView

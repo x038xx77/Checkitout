@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Checkitout</string>
+    <string name="start">Оценить</string>
+    <string name="back">Назад</string>
+    <string name="activiti_title_text">good or bad</string>
+    <string name="desc_firebase_lockup">logo</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Зацени хорошо или плохо, а может отлично</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="sign_in">Вход</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify</string>
+    <string name="reload">Reload</string>
+    <string name="check_view">Check it out</string>
+    <string name="check_end">Спасибо за оценку!</string>
+    <string name="check_btnWeb">Проверить</string>
+    <string name="inn_check">ИНН Компании/ИП</string>
+    <string name="name_check">Название Компании</string>
+    <string name="kontact_check">Контактное лицо, город</string>
+    <string name="phone_check">Телефон</string>
+    <string name="otziv_check">Отзыв</string>
+    <string name="edittext_hint"><font size="5">Hint here!</font></string>
+
+
 </resources>

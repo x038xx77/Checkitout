@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_check_layout"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView_check"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/main_background" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="@color/gold95"
+        android:text="@string/check_view"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textcheck"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/check_inn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/inn_check"
+            android:inputType="numberSigned"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="#0056d3"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#982360"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:id="@+id/check_compani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_check"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="#0056d3"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#982360"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/check_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kontact_check"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="#0056d3"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#982360"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/check_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_check"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="#0056d3"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#982360"
+            app:met_singleLineEllipsis="true" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/check_otziv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="@string/otziv_check"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+
+            android:textSize="20sp"
+            app:met_baseColor="#0056d3"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#982360"
+            app:met_singleLineEllipsis="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/check_btnWeb"
+            android:textSize="20sp"
+            android:background="@color/gold95"
+            android:id="@+id/btnWeb"
+            android:onClick="onClickstar7"/>
+
+        <Button
+            android:id="@+id/check_talk"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_above="@+id/textcheck"
+            android:gravity="center"
+            android:background="@drawable/talk"
+            android:onClick="onClickstar6"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/textcheck"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/check_btn1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_icon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickstar1"/>
+
+        <Button
+            android:id="@+id/check_btn2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_icon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickstar2"/>
+
+        <Button
+            android:id="@+id/check_btn3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_icon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickstar3"/>
+
+        <Button
+            android:id="@+id/check_btn4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_icon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickstar4"/>
+
+        <Button
+            android:id="@+id/check_btn5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_icon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickstar5"/>
+    </LinearLayout>
+
+</RelativeLayout>

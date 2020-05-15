@@ -21,7 +21,7 @@
         <ImageView
             android:id="@+id/icon"
             android:layout_width="match_parent"
-            android:layout_height="390dp"
+            android:layout_height="400dp"
             android:background="@drawable/icon_checkinapp"
             android:padding="10dp"
             android:contentDescription="@string/app_name" />
