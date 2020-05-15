@@ -76,7 +76,7 @@ public class CheckActivity extends AppCompatActivity {
         Check_User star_user = new Check_User(id, inn, company, name, phone, otziv, btn1, null, null, null, null);
         if (!TextUtils.isEmpty(inn) && !TextUtils.isEmpty(company) && inn.length() == 7 | inn.length() == 8 | inn.length() == 9 | inn.length() == 10 | inn.length() == 11 | inn.length() == 12 | inn.length() == 13 | inn.length() == 14) {
             star_database.child("Star").push().setValue(star_user);
-            Toast.makeText(this, "Добавлено", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Спасибо за оценку!", Toast.LENGTH_LONG).show();
             finish();
         } else {
             Toast.makeText(this, "Пустое поле или ИНН неправильный", Toast.LENGTH_LONG).show();
@@ -99,7 +99,7 @@ public class CheckActivity extends AppCompatActivity {
         Check_User star_user = new Check_User(id, inn, company, name, phone, otziv, null, btn2, null, null, null);
         if (!TextUtils.isEmpty(inn) && !TextUtils.isEmpty(company) && inn.length() == 7 | inn.length() == 8 | inn.length() == 9 | inn.length() == 10 | inn.length() == 11 | inn.length() == 12 | inn.length() == 13 | inn.length() == 14) {
             star_database.child("Star").push().setValue(star_user);
-            Toast.makeText(this, "Добавлено", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Спасибо за оценку!", Toast.LENGTH_LONG).show();
             finish();
         } else {
             Toast.makeText(this, "Пустое поле или ИНН неправильный", Toast.LENGTH_LONG).show();
@@ -121,7 +121,7 @@ public class CheckActivity extends AppCompatActivity {
         Check_User star_user = new Check_User(id, inn, company, name, phone, otziv, null, null, btn3, null, null);
         if (!TextUtils.isEmpty(inn) && !TextUtils.isEmpty(company) && inn.length() == 7 | inn.length() == 8 | inn.length() == 9 | inn.length() == 10 | inn.length() == 11 | inn.length() == 12 | inn.length() == 13 | inn.length() == 14) {
             star_database.child("Star").push().setValue(star_user);
-            Toast.makeText(this, "Добавлено", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Спасибо за оценку!", Toast.LENGTH_LONG).show();
             finish();
         } else {
             Toast.makeText(this, "Пустое поле или ИНН неправильный", Toast.LENGTH_LONG).show();
@@ -143,7 +143,7 @@ public class CheckActivity extends AppCompatActivity {
         Check_User star_user = new Check_User(id, inn, company, name, phone, otziv, null, null, null, btn4, null);
         if (!TextUtils.isEmpty(inn) && !TextUtils.isEmpty(company) && inn.length() == 7 | inn.length() == 8 | inn.length() == 9 | inn.length() == 10 | inn.length() == 11 | inn.length() == 12 | inn.length() == 13 | inn.length() == 14) {
             star_database.child("Star").push().setValue(star_user);
-            Toast.makeText(this, "Добавлено", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Спасибо за оценку!", Toast.LENGTH_LONG).show();
             finish();
         } else {
             Toast.makeText(this, "Пустое поле или ИНН неправильный, 10 или 12 цыфр", Toast.LENGTH_LONG).show();
@@ -165,7 +165,7 @@ public class CheckActivity extends AppCompatActivity {
         Check_User star_user = new Check_User(id, inn, company, name, phone, otziv, null, null, null, null, btn5);
         if (!TextUtils.isEmpty(inn) && !TextUtils.isEmpty(company) && inn.length() == 7 | inn.length() == 8 | inn.length() == 9 | inn.length() == 10 | inn.length() == 11 | inn.length() == 12 | inn.length() == 13 | inn.length() == 14) {
             star_database.child("Star").push().setValue(star_user);
-            Toast.makeText(this, "Добавлено", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Спасибо за оценку!", Toast.LENGTH_LONG).show();
             finish();
         } else {
             Toast.makeText(this, "Пустое поле или ИНН неправильный", Toast.LENGTH_LONG).show();
